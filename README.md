@@ -221,6 +221,14 @@ See [Fence and Google](docs/google_architecture.md) for more details on data acc
 
 #### Install Requirements and Fence
 
+System installs Ubuntu 20.x:
+
+```bash
+sudo apt install python3-dev python3-pip postgresql
+```
+
+Python installs:
+
 ```bash
 # Install requirements.
 pip install -r requirements.txt
